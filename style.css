@@ -1,0 +1,115 @@
+*{
+    margin: 0px;
+    padding: 0px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    text-decoration: none;
+}
+body{
+   background-color: lightblue;
+}
+
+#General{
+    width: 1200px;
+    border: 1px solid black;
+    margin: 0px auto;
+    margin-top: 10px;
+}
+#header{
+    width: 100%;
+    height: 100px;
+    background-color: rgba(12, 65, 165, 0.465);
+    padding-bottom: 16px;
+}
+
+#header h1 {
+    text-align: center;
+    color: white;
+    font-size: 70px;
+    font-weight: bold;
+    line-height: 80px;
+    text-shadow: 0px 0px 10px black ;
+}
+#menu{
+    background-color: #444;
+}
+#menu ul li {
+    display: block;
+    float: left;
+    list-style: none;
+    border-right: 1px solid coral;
+    
+}
+#menu ul li:hover{
+    background-color: red;
+}
+
+#menu ul li a {
+    display: block;
+    color: white;
+    padding: 20px;
+}
+.clear{
+    clear: both;
+}
+
+.container{
+    float: left;
+    width: 79%;
+    border: 1px solid #ccc;
+    background-color: cornflowerblue;
+}
+.container .caja {
+    display: block;
+    float: left;
+    width: 100px;
+    height: 100px;
+    padding: 70px;
+    padding-right: 60px;
+    margin: 10px;
+    margin-top: 17px;
+    border: 1px solid black;
+    border-radius: 50px;
+    background-color: red;
+}
+.container .caja:hover{
+    background-color: blue;
+    box-shadow: 0px 0px 20px black inset;
+}
+.container h2{
+    font-weight: bold;
+    line-height: 80px;
+    text-align: center;
+    font-size: 40px;
+    color: white;
+}
+#lateral{
+    display: block;
+    width: 20%;
+    min-width: 106px;
+    max-height: 1156px;
+    padding-right: 7px;
+    border: 1px solid #444;
+    background-color: rgb(0, 0, 83);
+    float: left;
+    overflow-y: scroll;
+}
+#lateral h2 {
+    text-align: center;
+    color: white;
+    
+}
+#lateral .p {
+    display: block;
+    color: white;
+    margin-top: 5px;
+    
+}
+#fotter{
+    width: 1200px;
+    padding-bottom: 15px;
+    padding-top: 15px;
+    text-align: center;
+    color: white;
+    background-color: blue;
+}
+
